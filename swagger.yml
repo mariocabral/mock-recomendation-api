@@ -1,0 +1,273 @@
+openapi: 3.0.0
+info:
+  title: 'Agora Recommendation '
+  version: '1.0'
+  description: |-
+    Api que permite consultar una lista de productos recomendados:
+    - basado en un producto en particular
+    - basado en el carrito
+tags:
+  - name: "Reccommendation"
+    description: "Everything about recommendations"
+servers:
+  - url: 'http://localhost:5000'
+paths:
+  '/v1/recommendation/product/{store_id}/{subsidiary_store_id}/{external_id}':
+    parameters:
+      - schema:
+          type: string
+          format: uuid
+        name: store_id
+        in: path
+        required: true
+      - schema:
+          type: string
+          format: uuid
+        name: subsidiary_store_id
+        in: path
+        required: true
+      - schema:
+          type: string
+          minLength: 1
+          maxLength: 30
+        name: external_id
+        in: path
+        required: true
+    get:
+      summary: Get User Info by User ID
+      tags:
+        - Reccommendation
+      responses:
+        '201':
+          description: Lista de productos recomendados
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/RecommendationResponse'
+      operationId: get-product-recommendation
+      description: Retorna las recomendaciones basado en un producto
+  '/v1/recommendation/shoppingcart/{store_id}/{subsidiary_store_id}':
+    post:
+      summary: Recomendaciones de un carrito
+      tags:
+        - Reccommendation
+      operationId: post-shopping-cart-recommendation
+      responses:
+        '200':
+          description: Lista de productos recomendados
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/RecommendationResponse'
+        '400':
+          description: Missing Required Information
+        '409':
+          description: Email Already Taken
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                firstName:
+                  type: string
+                lastName:
+                  type: string
+                email:
+                  type: string
+                dateOfBirth:
+                  type: string
+                  format: date
+              required:
+                - firstName
+                - lastName
+                - email
+                - dateOfBirth
+            examples:
+              Create User Bob Fellow:
+                value:
+                  firstName: Bob
+                  lastName: Fellow
+                  email: bob.fellow@gmail.com
+                  dateOfBirth: '1996-08-24'
+          application/xml:
+            schema:
+              type: array
+              items:
+                type: string
+        description: Lista de externalIds de los productos existentes en el carrito
+      description: Retorna las recomendaciones basada en un carrito
+    parameters:
+      - schema:
+          type: string
+          format: uuid
+        name: store_id
+        in: path
+        required: true
+      - schema:
+          type: string
+          format: uuid
+        name: subsidiary_store_id
+        in: path
+        required: true
+components:
+  schemas:
+    RecommendationResponse:
+      type: object
+      properties:
+        productId:
+          type: string
+          format: uuid
+          example: f87fe042-0ce1-4ec2-ae93-9af8d91ad80a
+        storeId:
+          type: string
+          format: uuid
+          example: 92bb3bcf-4e67-4026-8415-53acc99128af
+        sku:
+          type: string
+          example: BLK-MED-G123-GUC
+        ean:
+          type: string
+          example: '978020137962'
+        plu:
+          type: string
+          example: '123456789'
+        external:
+          type: string
+          example: BLK-MED-G123-GUC
+        label:
+          type: string
+          example: Leche Gloria
+        shortDescription:
+          type: string
+          example: Tarro de Leche Gloria de 500gr
+        brandLabel:
+          type: string
+          example: Gloria
+        brandId:
+          type: string
+          format: uuid
+          example: 92bb3bcf-4e67-4026-8415-53acc99128af
+        images:
+          type: array
+          items:
+            type: object
+            properties:
+              imageUrl:
+                type: string
+                example: 'https://http2.mlstatic.com/leche-gloria-tableta-x-24-uni-D_NQ_NP_847854-MPE41270927580_032020-F.jpg'
+        productSubsidiary:
+          type: array
+          items:
+            type: object
+            properties:
+              price:
+                type: number
+                format: double
+                example: 2.5
+              storeSubsidiaryProductId:
+                type: string
+                format: uuid
+                example: 92bb3bcf-4e67-4026-8415-53acc99128af
+              storeSubsidiaryId:
+                type: string
+                format: uuid
+                example: 92bb3bcf-4e67-4026-8415-53acc99128af
+              logisticMeasurementUnit:
+                type: string
+                example: und
+              measurementUnitLabelA:
+                type: string
+                example: und
+              measureIncrementValueA:
+                type: number
+                format: double
+                example: 1
+              measurementUnitLabelB:
+                type: string
+                example: kg
+              measureIncrementValueB:
+                type: number
+                format: double
+                example: 1
+              isInStock:
+                type: boolean
+                example: true
+              maxUnitSale:
+                type: integer
+                format: int64
+                example: 4
+              stock:
+                type: integer
+                format: int64
+                example: 4
+        promotions:
+          type: array
+          items:
+            type: object
+            properties:
+              externalId:
+                type: string
+                example: string
+              externalPromotionId:
+                type: string
+                example: string
+              externalPromotionName:
+                type: string
+              name:
+                type: string
+                example: string
+              label:
+                type: string
+              description:
+                type: string
+                example: string
+              type:
+                type: string
+                enum:
+                  - OPEN
+                  - AGORA_CARD_PAYMENT
+                  - OH_CARD_PAYMENT
+              discountType:
+                type: string
+                enum:
+                  - PERCENTAGE
+                  - FLAT
+                  - NONE
+              promotionalPrice:
+                type: number
+                format: double
+                example: 2.5
+              promotionInitialDate:
+                type: string
+                example: '2022-07-31T10:34:58'
+                format: date-time
+              promotionDueDate:
+                type: string
+                example: '2022-08-10T10:34:58'
+                format: date-time
+        nutritionalInformation:
+          type: object
+          properties:
+            highSodium:
+              type: boolean
+              example: true
+            highInSugar:
+              type: boolean
+              example: true
+            highInSaturatedFat:
+              type: boolean
+              example: true
+            containTransFats:
+              type: boolean
+              example: true
+            avoidExcessiveConsumption:
+              type: boolean
+              example: true
+            avoidItsConsumption:
+              type: boolean
+              example: true
