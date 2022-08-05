@@ -5,11 +5,13 @@ from engines.context import Context
 from engines.strategy.product_strategy import ProductRecommendationStrategy
 from engines.strategy.shopping_cart_strategy import ShoppingCartRecommendationStrategy
 from engines.domain.recommendation_parameters import RecommendationParams
+from validator.request_validator import validate
 
 app = Flask(__name__)
 
 
 @app.route('/v1/recommendation/product/<uuid:store_id>/<uuid:subsidiary_store_id>/<external_id>', methods=['GET'])
+@validate
 def product_promotion(store_id, subsidiary_store_id, external_id):
     print(f'Recommendation request for store {store_id} subsidiary {subsidiary_store_id} '
           f'with the product {external_id}')
@@ -21,6 +23,7 @@ def product_promotion(store_id, subsidiary_store_id, external_id):
 
 
 @app.route('/v1/recommendation/shoppingcart/<uuid:store_id>/<uuid:subsidiary_store_id>', methods=['POST'])
+@validate
 def shopping_cart_promotion(store_id, subsidiary_store_id):
     content_type = request.headers.get('Content-Type')
     if content_type == 'application/json':
