@@ -1,8 +1,6 @@
 runtime: python39
-api_version: 1
-threadsafe: true
 
-service: agora-recommendation-handler
+service: default
 
 # https://cloud.google.com/appengine/docs/standard#instance_classes
 #instance_class: B4
@@ -15,6 +13,3 @@ handlers:
 - url: /.*
   script: main.app
 
-libraries:
-- name: flask
-  version: 2.1.3
