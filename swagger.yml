@@ -71,29 +71,13 @@ paths:
         content:
           application/json:
             schema:
-              type: object
-              properties:
-                firstName:
-                  type: string
-                lastName:
-                  type: string
-                email:
-                  type: string
-                dateOfBirth:
-                  type: string
-                  format: date
-              required:
-                - firstName
-                - lastName
-                - email
-                - dateOfBirth
+              type: array
+              items:
+                type: string
             examples:
               Create User Bob Fellow:
                 value:
-                  firstName: Bob
-                  lastName: Fellow
-                  email: bob.fellow@gmail.com
-                  dateOfBirth: '1996-08-24'
+                  ['20111229','60769','979253','772631','2294','60288','199315','48739']
           application/xml:
             schema:
               type: array
