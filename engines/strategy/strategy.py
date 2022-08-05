@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
-from engines.domain.recomendationParameters import RecommendationParams
-from engines.domain.recomendationResult import RecommendationResult
+from engines.domain.recommendation_parameters import RecommendationParams
+from engines.domain.recommendation_result import RecommendationResult
 
 
 class RecommendationStrategy(ABC):

@@ -1,6 +1,6 @@
 from engines.strategy.strategy import RecommendationStrategy
-from engines.domain.recomendationParameters import RecommendationParams
-from engines.domain.recomendationResult import RecommendationResult
+from engines.domain.recommendation_parameters import RecommendationParams
+from engines.domain.recommendation_result import RecommendationResult
 from mock_data.mock_recommendation import get_product_recommendation
 
 

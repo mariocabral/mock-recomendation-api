@@ -1,7 +1,7 @@
 from __future__ import annotations
 from engines.strategy.product_strategy import RecommendationStrategy
-from engines.domain.recomendationParameters import RecommendationParams
-from engines.domain.recomendationResult import RecommendationResult
+from engines.domain.recommendation_parameters import RecommendationParams
+from engines.domain.recommendation_result import RecommendationResult
 
 
 class Context:

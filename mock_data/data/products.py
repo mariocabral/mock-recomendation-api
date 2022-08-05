@@ -1,4 +1,3 @@
-
 products_by_store_and_subsidiary = [{
     "storeId": "fde03a5d-5202-43f8-b6a7-266cdc40c212",
     "subsidiaryId": "24c4fa0f-2efb-4057-9423-97910cc349e2",
@@ -12,12 +11,15 @@ products_by_store_and_subsidiary = [{
             "plu": "",
             "external": "20093148",
             "label": "Plancha a Vapor THOMAS TH7001 Blanco",
-            "shortDescription": "Alto: 14 Cm, Ancho: 26 Cm, Antiadherente: No, Garantía: 2 Años, Incluye: Manual De Uso., Potencia: 1300W",
+            "shortDescription": "Alto: 14 Cm, Ancho: 26 Cm, Antiadherente: No, Garantía: 2 "
+                                "Años, Incluye: Manual De Uso., Potencia: 1300W",
             "brandId": "75a7e4fa-d1c1-40dc-9084-1f7c16c65607",
             "brandLabel": "THOMAS",
             "images": [
                 {
-                    "imageUrl": "https://storage.googleapis.com/agora-express-images-qa/product/02753a34-c145-44e0-bb62-d2c474f96386/image/fde03a5d-5202-43f8-b6a7-266cdc40c212/original.jpg"
+                    "imageUrl": "https://storage.googleapis.com/agora-express-images-qa/product/"
+                                "02753a34-c145-44e0-bb62-d2c474f96386/image/fde03a5d-5202-43f8-b6a7-266cdc40c212/"
+                                "original.jpg"
                 }
             ],
             "productSubsidiary": [
@@ -47,12 +49,15 @@ products_by_store_and_subsidiary = [{
             "plu": "",
             "external": "20093148",
             "label": "Plancha a Vapor THOMAS TH7001 Blanco",
-            "shortDescription": "Alto: 14 Cm, Ancho: 26 Cm, Antiadherente: No, Garantía: 2 Años, Incluye: Manual De Uso., Potencia: 1300W",
+            "shortDescription": "Alto: 14 Cm, Ancho: 26 Cm, Antiadherente: No, Garantía: 2 Años, "
+                                "Incluye: Manual De Uso., Potencia: 1300W",
             "brandId": "75a7e4fa-d1c1-40dc-9084-1f7c16c65607",
             "brandLabel": "THOMAS",
             "images": [
                 {
-                    "imageUrl": "https://storage.googleapis.com/agora-express-images-qa/product/02753a34-c145-44e0-bb62-d2c474f96386/image/fde03a5d-5202-43f8-b6a7-266cdc40c212/original.jpg"
+                    "imageUrl": "https://storage.googleapis.com/agora-express-images-qa/product/"
+                                "02753a34-c145-44e0-bb62-d2c474f96386/image/fde03a5d-5202-43f8-b6a7-266cdc40c212/"
+                                "original.jpg"
                 }
             ],
             "productSubsidiary": [
@@ -78,8 +83,6 @@ products_by_store_and_subsidiary = [{
 }
 ]
 
-
-
 shopping_cart_by_store_and_subsidiary = [{
     "storeId": "fde03a5d-5202-43f8-b6a7-266cdc40c212",
     "subsidiaryId": "24c4fa0f-2efb-4057-9423-97910cc349e2",
@@ -92,12 +95,15 @@ shopping_cart_by_store_and_subsidiary = [{
             "plu": "",
             "external": "20093148",
             "label": "Plancha a Vapor THOMAS TH7001 Blanco",
-            "shortDescription": "Alto: 14 Cm, Ancho: 26 Cm, Antiadherente: No, Garantía: 2 Años, Incluye: Manual De Uso., Potencia: 1300W",
+            "shortDescription": "Alto: 14 Cm, Ancho: 26 Cm, Antiadherente: No, Garantía: 2 Años, Incluye: "
+                                "Manual De Uso., Potencia: 1300W",
             "brandId": "75a7e4fa-d1c1-40dc-9084-1f7c16c65607",
             "brandLabel": "THOMAS",
             "images": [
                 {
-                    "imageUrl": "https://storage.googleapis.com/agora-express-images-qa/product/02753a34-c145-44e0-bb62-d2c474f96386/image/fde03a5d-5202-43f8-b6a7-266cdc40c212/original.jpg"
+                    "imageUrl": "https://storage.googleapis.com/agora-express-images-qa/product/"
+                                "02753a34-c145-44e0-bb62-d2c474f96386/image/fde03a5d-5202-43f8-b6a7-266cdc40c212/"
+                                "original.jpg"
                 }
             ],
             "productSubsidiary": [
@@ -127,12 +133,15 @@ shopping_cart_by_store_and_subsidiary = [{
             "plu": "",
             "external": "20093148",
             "label": "Plancha a Vapor THOMAS TH7001 Blanco",
-            "shortDescription": "Alto: 14 Cm, Ancho: 26 Cm, Antiadherente: No, Garantía: 2 Años, Incluye: Manual De Uso., Potencia: 1300W",
+            "shortDescription": "Alto: 14 Cm, Ancho: 26 Cm, Antiadherente: No, Garantía: 2 Años, "
+                                "Incluye: Manual De Uso., Potencia: 1300W",
             "brandId": "75a7e4fa-d1c1-40dc-9084-1f7c16c65607",
             "brandLabel": "THOMAS",
             "images": [
                 {
-                    "imageUrl": "https://storage.googleapis.com/agora-express-images-qa/product/02753a34-c145-44e0-bb62-d2c474f96386/image/fde03a5d-5202-43f8-b6a7-266cdc40c212/original.jpg"
+                    "imageUrl": "https://storage.googleapis.com/agora-express-images-qa/product/"
+                                "02753a34-c145-44e0-bb62-d2c474f96386/image/fde03a5d-5202-43f8-b6a7-266cdc40c212/"
+                                "original.jpg"
                 }
             ],
             "productSubsidiary": [
