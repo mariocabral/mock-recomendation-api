@@ -14,6 +14,7 @@ class Context:
 
     @property
     def strategy(self) -> RecommendationStrategy:
+        """A dummy docstring."""
         return self._strategy
 
     @strategy.setter
@@ -21,4 +22,5 @@ class Context:
         self._strategy = strategy
 
     def get_recommendation(self, params: RecommendationParams) -> RecommendationResult:
+        """A dummy docstring."""
         return self._strategy.recommendation_algorithm(params)

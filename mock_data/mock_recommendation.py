@@ -1,5 +1,7 @@
-from mock_data.data.products import products_by_store_and_subsidiary, shopping_cart_by_store_and_subsidiary
 import json
+from mock_data.data.products import products_by_store_and_subsidiary
+from mock_data.data.shopping_cart import shopping_cart_by_store_and_subsidiary
+
 
 
 def get_product_recommendation(store_id, subsidiary_id, product):

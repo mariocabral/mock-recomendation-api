@@ -3,4 +3,4 @@ jobs=4 #number of processes to use
 [BASIC]
 good-names= #names to be considered ok
 [pre-commit-hook]
-disable=E0401, C0301, C0114, C0116
+disable=E0401, C0301, C0114, C0116, C0115

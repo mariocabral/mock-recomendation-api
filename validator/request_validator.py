@@ -1,5 +1,5 @@
-from flask import request, abort
 from functools import wraps
+from flask import request, abort
 
 
 def validate(f):
@@ -9,7 +9,6 @@ def validate(f):
         platform = request.headers.get('x-platform')
         if application == 'CUS' and platform == 'AND':
             return f(*args, **kwargs)
-        else:
-            return abort(403)
+        return abort(403)
 
     return decorated

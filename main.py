@@ -40,7 +40,7 @@ def shopping_cart_promotion(store_id, subsidiary_store_id):
 
 
 @app.errorhandler(500)
-def server_error(e):
+def server_error():
     # Log the error and stacktrace.
     logging.exception('An error occurred during a request.')
     return 'An internal error occurred.', 500
