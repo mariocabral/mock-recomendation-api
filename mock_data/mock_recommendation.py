@@ -24,5 +24,5 @@ def get_shopping_cart_recommendation(store_id, subsidiary_id, items):
 
 
 def filter_items(recommendation, items, limit):
-    recommendation_filtered = filter(lambda p: p['sku'] not in items, recommendation)
+    recommendation_filtered = list(filter(lambda p: p['sku'] not in items, recommendation))
     return json.dumps(recommendation_filtered[0:limit])
