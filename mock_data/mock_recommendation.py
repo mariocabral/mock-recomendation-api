@@ -19,5 +19,10 @@ def get_shopping_cart_recommendation(store_id, subsidiary_id, items):
         print(f'Check store "{row["storeId"]}" subsidiary "{row["subsidiaryId"]}"')
         if row["storeId"] == store_id and row["subsidiaryId"] == subsidiary_id:
             print('Recommendation found!')
-            return json.dumps(row["recommendation"])
+            return filter_items(row["recommendation"], items, limit=10)
     return json.dumps([])
+
+
+def filter_items(recommendation, items, limit):
+    recommendation_filtered = filter(lambda p: p['sku'] not in items, recommendation)
+    return json.dumps(recommendation_filtered[0:limit])
