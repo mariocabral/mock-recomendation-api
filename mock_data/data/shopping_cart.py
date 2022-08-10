@@ -143,41 +143,6 @@ shopping_cart_by_store_and_subsidiary = [{
             "explain": None
         },
         {
-            "productId": "0471fe1e-d1fb-44c8-a835-856bc609e9c6",
-            "storeId": "d1f76b0a-8ed6-4289-b771-f2606e736d72",
-            "sku": "20280558",
-            "ean": "",
-            "plu": "",
-            "external": "20280558",
-            "label": "2 pollos + 2 papas fritas + six pack pilsen",
-            "shortDescription": "2 pollos + 2 papas fritas + six pack pilsen",
-            "brandId": "4d92afb7-96c0-4b77-9fb6-fedd62612ff6",
-            "brandLabel": "PLAZA VEA",
-            "images": [
-                {
-                    "imageUrl": "https://storage.googleapis.com/agora-express-images-qa/product/0471fe1e-d1fb-44c8-a835-856bc609e9c6/image/d1f76b0a-8ed6-4289-b771-f2606e736d72/original.jpg"
-                }
-            ],
-            "productSubsidiary": [
-                {
-                    "price": 66.8,
-                    "storeSubsidiaryProductId": "bc0d76e4-e46e-4f4c-b4c6-476e8a893d40",
-                    "storeSubsidiaryId": "5c2f2ce0-0e67-418a-a9c6-b90015e0a912",
-                    "logisticMeasurementUnit": "und",
-                    "measurementUnitLabelA": "und",
-                    "measureIncrementValueA": 1.0,
-                    "measurementUnitLabelB": "",
-                    "measureIncrementValueB": None,
-                    "isInStock": True,
-                    "maxUnitSale": 10,
-                    "stock": 300
-                }
-            ],
-            "promotions": [],
-            "nutritionalInformation": None,
-            "explain": None
-        },
-        {
             "productId": "04a654ff-8919-4603-875f-34e94942f4e6",
             "storeId": "d1f76b0a-8ed6-4289-b771-f2606e736d72",
             "sku": "20130591",

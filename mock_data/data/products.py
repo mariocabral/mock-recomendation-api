@@ -2334,5 +2334,187 @@ products_by_store_and_subsidiary = [{
                 "explain": None
             }
         ]
+    },
+    {
+        "storeId": "d1f76b0a-8ed6-4289-b771-f2606e736d72",
+        "subsidiaryId": "5c2f2ce0-0e67-418a-a9c6-b90015e0a912",
+        "external": "20199867",
+        "recommendation": [
+{
+                "productId": "672b6e1b-a867-4402-aa6b-ff066b7c35c0",
+                "storeId": "d1f76b0a-8ed6-4289-b771-f2606e736d72",
+                "sku": "20208467",
+                "ean": "71164343524",
+                "plu": "",
+                "external": "20208467",
+                "label": "Acondicionador Profundo HASK para Cabello Rubio Blue Chamomile & Argan Oil Frasco 355ml",
+                "shortDescription": "Acondicionador Profundo HASK para Cabello Rubio Blue Chamomile & Argan Oil Frasco 355ml",
+                "brandId": "13a4874b-aae8-4777-ae6e-0fd9259c3010",
+                "brandLabel": "HASK",
+                "images": [
+                    {
+                        "imageUrl": "https://storage.googleapis.com/agora-express-images-qa/product/672b6e1b-a867-4402-aa6b-ff066b7c35c0/image/d1f76b0a-8ed6-4289-b771-f2606e736d72/original.jpg"
+                    }
+                ],
+                "productSubsidiary": [
+                    {
+                        "price": 20.3,
+                        "storeSubsidiaryProductId": "53b311e2-6d3d-4c4c-a401-248a1066c075",
+                        "storeSubsidiaryId": "5c2f2ce0-0e67-418a-a9c6-b90015e0a912",
+                        "logisticMeasurementUnit": "und",
+                        "measurementUnitLabelA": "und",
+                        "measureIncrementValueA": 1.0,
+                        "measurementUnitLabelB": "",
+                        "measureIncrementValueB": None,
+                        "isInStock": True,
+                        "maxUnitSale": 5,
+                        "stock": 300
+                    }
+                ],
+                "promotions": [],
+                "nutritionalInformation": None,
+                "explain": None
+            },
+            {
+                "productId": "47ab2029-cfb2-40fd-bd82-0ffafee947a1",
+                "storeId": "d1f76b0a-8ed6-4289-b771-f2606e736d72",
+                "sku": "20197390",
+                "ean": "7798140259930",
+                "plu": "",
+                "external": "20197390",
+                "label": "Crema para Cabello TIO NACHO Tratamiento Aloe Vera Botella 300ml",
+                "shortDescription": "Crema para Cabello TIO NACHO Tratamiento Aloe Vera Botella 300ml",
+                "brandId": "0cf1e2e9-6e0f-4977-a24e-112d9e6c803e",
+                "brandLabel": "T\u00cdO NACHO",
+                "images": [
+                    {
+                        "imageUrl": "https://storage.googleapis.com/agora-express-images-qa/product/47ab2029-cfb2-40fd-bd82-0ffafee947a1/image/d1f76b0a-8ed6-4289-b771-f2606e736d72/original.jpg"
+                    }
+                ],
+                "productSubsidiary": [
+                    {
+                        "price": 26.9,
+                        "storeSubsidiaryProductId": "fb819c0a-1aac-47cc-9231-c3a69e62c64f",
+                        "storeSubsidiaryId": "5c2f2ce0-0e67-418a-a9c6-b90015e0a912",
+                        "logisticMeasurementUnit": "und",
+                        "measurementUnitLabelA": "und",
+                        "measureIncrementValueA": 1.0,
+                        "measurementUnitLabelB": "",
+                        "measureIncrementValueB": None,
+                        "isInStock": True,
+                        "maxUnitSale": 10,
+                        "stock": 300
+                    }
+                ],
+                "promotions": [],
+                "nutritionalInformation": None,
+                "explain": None
+            },
+            {
+                "productId": "c019195b-2639-4090-b2f7-25feb7841e6f",
+                "storeId": "d1f76b0a-8ed6-4289-b771-f2606e736d72",
+                "sku": "20200680",
+                "ean": "67545037366",
+                "plu": "",
+                "external": "20200680",
+                "label": "Tratamiento para el Cabello LA COUPE Orgnx Keratina Brasilera Frasco 150ml",
+                "shortDescription": "Tratamiento para el Cabello LA COUPE Orgnx Keratina Brasilera Frasco 150ml",
+                "brandId": "73f5d4c9-6261-4892-ae4f-2f52f986ac0b",
+                "brandLabel": "LA COUPE",
+                "images": [
+                    {
+                        "imageUrl": "https://storage.googleapis.com/agora-express-images-qa/product/c019195b-2639-4090-b2f7-25feb7841e6f/image/d1f76b0a-8ed6-4289-b771-f2606e736d72/original.jpg"
+                    }
+                ],
+                "productSubsidiary": [
+                    {
+                        "price": 39.0,
+                        "storeSubsidiaryProductId": "11f84c31-7406-4916-abb2-0492cb34576b",
+                        "storeSubsidiaryId": "5c2f2ce0-0e67-418a-a9c6-b90015e0a912",
+                        "logisticMeasurementUnit": "und",
+                        "measurementUnitLabelA": "und",
+                        "measureIncrementValueA": 1.0,
+                        "measurementUnitLabelB": "",
+                        "measureIncrementValueB": None,
+                        "isInStock": True,
+                        "maxUnitSale": 10,
+                        "stock": 300
+                    }
+                ],
+                "promotions": [],
+                "nutritionalInformation": None,
+                "explain": None
+            },
+            {
+                "productId": "82937f03-ba91-4ad6-8782-a8f50cf72810",
+                "storeId": "d1f76b0a-8ed6-4289-b771-f2606e736d72",
+                "sku": "20131277",
+                "ean": "",
+                "plu": "",
+                "external": "20131277",
+                "label": "Shampoo PANTENE 2 en 1 Cuidado Cl\u00e1sico Frasco 700ml",
+                "shortDescription": "Shampoo PANTENE 2 en 1 Cuidado Cl\u00e1sico Frasco 700ml",
+                "brandId": "fbf158d8-20e2-4b07-84f2-e4f93daccae3",
+                "brandLabel": "PANTENE",
+                "images": [
+                    {
+                        "imageUrl": "https://storage.googleapis.com/agora-express-images-qa/product/82937f03-ba91-4ad6-8782-a8f50cf72810/image/d1f76b0a-8ed6-4289-b771-f2606e736d72/original.jpg"
+                    }
+                ],
+                "productSubsidiary": [
+                    {
+                        "price": 27.9,
+                        "storeSubsidiaryProductId": "445859ee-7570-46f9-a949-8bc33d9e7e08",
+                        "storeSubsidiaryId": "5c2f2ce0-0e67-418a-a9c6-b90015e0a912",
+                        "logisticMeasurementUnit": "und",
+                        "measurementUnitLabelA": "und",
+                        "measureIncrementValueA": 1.0,
+                        "measurementUnitLabelB": "",
+                        "measureIncrementValueB": None,
+                        "isInStock": True,
+                        "maxUnitSale": 10,
+                        "stock": 300
+                    }
+                ],
+                "promotions": [],
+                "nutritionalInformation": None,
+                "explain": None
+            },
+            {
+                "productId": "7ca754f8-3d5a-4451-9164-7a03a201c651",
+                "storeId": "d1f76b0a-8ed6-4289-b771-f2606e736d72",
+                "sku": "1351126001",
+                "ean": "",
+                "plu": "",
+                "external": "1351126001",
+                "label": "Enjuague Bucal ORAL-B Menta Refrescante Botella 500ml",
+                "shortDescription": "Enjuague Bucal ORAL-B Menta Refrescante Botella 500ml",
+                "brandId": "d4bde60e-cd33-4ad3-8cda-8af51869adbf",
+                "brandLabel": "ORAL-B",
+                "images": [
+                    {
+                        "imageUrl": "https://storage.googleapis.com/agora-express-images-qa/product/7ca754f8-3d5a-4451-9164-7a03a201c651/image/d1f76b0a-8ed6-4289-b771-f2606e736d72/original.jpg"
+                    }
+                ],
+                "productSubsidiary": [
+                    {
+                        "price": 21.1,
+                        "storeSubsidiaryProductId": "44843b16-33e7-48b7-98fe-66ab9c255769",
+                        "storeSubsidiaryId": "5c2f2ce0-0e67-418a-a9c6-b90015e0a912",
+                        "logisticMeasurementUnit": "und",
+                        "measurementUnitLabelA": "und",
+                        "measureIncrementValueA": 1.0,
+                        "measurementUnitLabelB": "",
+                        "measureIncrementValueB": None,
+                        "isInStock": True,
+                        "maxUnitSale": 10,
+                        "stock": 300
+                    }
+                ],
+                "promotions": [],
+                "nutritionalInformation": None,
+                "explain": None
+            }
+        ]
     }
 ]
